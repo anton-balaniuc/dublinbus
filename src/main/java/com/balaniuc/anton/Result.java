@@ -26,7 +26,7 @@ public class Result {
     @JsonProperty("timestamp")
     private String timestamp;
     @JsonProperty("results")
-    private List<InnerResult> results = null;
+    private List<BusInfo> results = null;
 
     @JsonProperty("errorcode")
     public String getErrorcode() {
@@ -79,12 +79,12 @@ public class Result {
     }
 
     @JsonProperty("results")
-    public List<InnerResult> getResults() {
+    public List<BusInfo> getResults() {
         return results;
     }
 
     @JsonProperty("results")
-    public void setResults(List<InnerResult> results) {
+    public void setResults(List<BusInfo> results) {
         this.results = results;
     }
 

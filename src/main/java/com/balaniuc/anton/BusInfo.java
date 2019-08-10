@@ -25,10 +25,10 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "sourcetimestamp",
         "monitored"
 })
-public class InnerResult {
+public class BusInfo {
     @Override
     public String toString() {
-        return "InnerResult{" + "arrivaldatetime='" + arrivaldatetime + '\'' + ", duetime='" + duetime + '\'' + ", " +
+        return "BusInfo{" + "arrivaldatetime='" + arrivaldatetime + '\'' + ", duetime='" + duetime + '\'' + ", " +
                 "departuredatetime='" + departuredatetime + '\'' + ", departureduetime='" + departureduetime + '\'' + ", scheduledarrivaldatetime='" + scheduledarrivaldatetime + '\'' + ", scheduleddeparturedatetime='" + scheduleddeparturedatetime + '\'' + ", destination='" + destination + '\'' + ", destinationlocalized='" + destinationlocalized + '\'' + ", origin='" + origin + '\'' + ", originlocalized='" + originlocalized + '\'' + ", direction='" + direction + '\'' + ", operator='" + operator + '\'' + ", additionalinformation='" + additionalinformation + '\'' + ", lowfloorstatus='" + lowfloorstatus + '\'' + ", route='" + route + '\'' + ", sourcetimestamp='" + sourcetimestamp + '\'' + ", monitored='" + monitored + '\'' + '}';
     }
 
